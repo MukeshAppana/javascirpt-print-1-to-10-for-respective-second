@@ -1,7 +1,7 @@
 # javascirpt-print-1-to-10-for-respective-second
 This is one of the most asked questions in interviews 
 
-Q)print 1 to 10 numbers or any numbers for respectrive seconds in java script
+Q)print 1 to 10 numbers or any numbers for respective seconds in java script
   we can acheive this by using settimeout method and loops in java script
 
 print number   for seconds(from starting)
