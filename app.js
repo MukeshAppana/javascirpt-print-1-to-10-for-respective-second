@@ -24,7 +24,7 @@ x();
 
  x();
 
-//for respective seconds time interval after each print
+//for respective seconds time interval after each print(Type3)
 function x() {
     var d=0;
     for (let i=1;i<=10;i++){
