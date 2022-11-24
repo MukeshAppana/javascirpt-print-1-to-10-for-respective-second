@@ -23,3 +23,16 @@ x();
  }
 
  x();
+
+//for respective seconds time interval after each print
+function x() {
+    var d=0;
+    for (let i=1;i<=10;i++){
+        d=d+i;
+        setTimeout(function(){
+            console.log(i);
+        },(d+i)*1000);
+    }
+}
+
+x();
