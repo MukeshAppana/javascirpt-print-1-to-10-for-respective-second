@@ -36,3 +36,15 @@ function x() {
 }
 
 x();
+
+//for respective seconds time interval after each print including time(Type4)
+const printNumbersForEvery2Sec = (n) => {
+  var d =0;
+    for (let i = 1; i <= n; i++) {
+        d=d+i-1; //or d=d+i;
+      setTimeout(() => {
+        console.log(i,new Date());
+      }, (d+i)* 1000)
+    }
+  }
+  printNumbersForEvery2Sec(10);
